@@ -50,7 +50,7 @@ export function Section({ id, className, ...props }: SectionProps) {
 
 export function JoinSection() {
   return (
-    <Section className="relative text-white bg-black py-72 sm:py-72 md:py-64 lg:py-72 xl:py-80">
+    <Section className="relative text-white bg-black py-80 sm:py-72 md:py-64 lg:py-72 xl:py-80">
       <div className="absolute top-0 left-0 w-full h-full bg-white/50 grid grid-cols-10 grid-rows-8 gap-[0.5px]">
         {Array.from({ length: 80 }).map((_, i) => (
           <div key={i} className="bg-black"></div>
@@ -82,13 +82,13 @@ export function JoinSection() {
 
           <div className="flex gap-2 text-white flex-wrap">
             {[
-              "مساعدة الطلاب الدوليين",
+              // "مساعدة الطلاب الدوليين",
               "استشارات تعليمية متخصصة",
               "شراكات مع الجامعات الأمريكية الرائدة",
               "دعم شامل من البداية حتى الوصول",
               "توجيه شخصي لكل طالب",
               "مستندات مطابقة للمعايير الأكاديمية",
-              "التمويل والمساعدات الدراسية",
+              // "التمويل والمساعدات الدراسية",
               "تجربة دراسية سلسة في أمريكا",
               "شهادة رضا الطلاب في كل مرحلة",
             ].map((j, i) => (
