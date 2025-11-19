@@ -42,8 +42,8 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
             {/* <h1 className=" text-2xl font-bold tracking-tight text-v2-primary">
-              مسار غير
-            </h1> */}
+            مسار غير
+          </h1> */}
             <h3 className="text-2xl font-medium uppercase tracking-tight text-v2-darkgray">
               مسار
               <span className="mr-1 font-normal text-v2-darkgray/70 text-base sm:text-2xl">
@@ -291,9 +291,9 @@ export function FAQ() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-24">
           {/* <span className="inline-flex items-center gap-2 px-4 py-2 bg-lightgreen/25 text-v1darkgreen rounded-full text-sm font-semibold mb-8 border border-v1darkgreen/20">
-            <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
-            الأسئلة الشائعة
-          </span> */}
+          <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
+          الأسئلة الشائعة
+        </span> */}
           <SectionTag id="faq" className="">
             الأسئلة الشائعة
           </SectionTag>
@@ -459,18 +459,18 @@ function MSC() {
                   <br />
                   {/* <span className="text-v2-primary">Solar Innovation.</span> */}
                   {/* Embrace the
-                  sun, <br />
-                  <span className="text-lime-500">embrace your power.</span> */}
+                sun, <br />
+                <span className="text-lime-500">embrace your power.</span> */}
                 </Typography>
                 <Typography variant="lg/normal" className="text-white">
                   نساعد الطلاب في العثور على الجامعات الأمريكية المناسبة لهم،
                   ونقوم بإتمام جميع إجراءات المستندات والموافقات.
                 </Typography>
                 {/* <div>
-                  <Button className="rounded-none text-base py-4 px-6">
-                    Get Started
-                  </Button>
-                </div> */}
+                <Button className="rounded-none text-base py-4 px-6">
+                  Get Started
+                </Button>
+              </div> */}
                 <div>
                   <Button
                     className="rounded-none text-base py-4 px-6 backdrop-blur-lg"
@@ -557,10 +557,10 @@ function MSC() {
                 </div>
 
                 {/* <img
-                  src="https://moroccan-solar-cells.com/wp-content/uploads/2025/01/13627641.jpeg"
-                  alt=""
-                  className="w-full"
-                /> */}
+                src="https://moroccan-solar-cells.com/wp-content/uploads/2025/01/13627641.jpeg"
+                alt=""
+                className="w-full"
+              /> */}
               </div>
             </div>
           </PageContainer>
@@ -655,78 +655,78 @@ function MSC() {
         {/* Video */}
 
         {/* <Section className="bg-v2-darkgray text-white">
-          <PageContainer
-            size="md"
-            className="flex flex-col gap-y-12 items-center"
-          >
-            <div className="text-center flex flex-col gap-12">
-              <Typography
-                variant="5xl/medium"
-                className="text-white tracking-tighter"
-              >
-                The MSC Advantage
-              </Typography>
+        <PageContainer
+          size="md"
+          className="flex flex-col gap-y-12 items-center"
+        >
+          <div className="text-center flex flex-col gap-12">
+            <Typography
+              variant="5xl/medium"
+              className="text-white tracking-tighter"
+            >
+              The MSC Advantage
+            </Typography>
 
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-2 max-w-3xl mx-auto w-full ">
-                {[
-                  {
-                    title: "Local Manufacturing Power",
-                    subtitle: "1 GW Annual Production",
-                    description:
-                      "MSC is launching Morocco’s first photovoltaic module factory, starting with 1 GW capacity and scaling to 10 GW to meet global demand.",
-                  },
-                  {
-                    title: "Full Solar Value Chain",
-                    subtitle: "From Silicon to Module",
-                    description:
-                      "We bring every step of solar manufacturing — crystallization, wafering, cell, and module production — directly to Morocco.",
-                  },
-                  {
-                    title: "Global Expertise",
-                    subtitle: "International Team, Local Impact",
-                    description:
-                      "Our experienced international network in the PV industry is building Morocco’s place in the global renewable energy market.",
-                  },
-                  {
-                    title: "Sustainable Growth",
-                    subtitle: "Driving Energy Independence",
-                    description:
-                      "By producing high-efficiency solar technology locally, we reduce imports, strengthen Morocco’s economy, and cut carbon emissions.",
-                  },
-                ].map((j, i) => (
-                  <div
-                    key={j.title}
-                    className={cn(
-                      "p-6 border-b-2 border-v2-primary bg-[#2b5254] flex flex-col gap-2",
-                      {
-                        "border-b-0": i > 1,
-                        "border-t-2": i > 1,
-                      }
-                    )}
-                  >
-                    <div>
-                      <Typography
-                        className="text-v2-primary tracking-tight"
-                        variant="2xl/medium"
-                      >
-                        {j.title}
-                      </Typography>
-                      <Typography
-                        className="text-white tracking-tight"
-                        variant="xl/medium"
-                      >
-                        {j.subtitle}
-                      </Typography>
-                    </div>
-                    <Typography variant="base/normal" className="text-white">
-                      {j.description}
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 max-w-3xl mx-auto w-full ">
+              {[
+                {
+                  title: "Local Manufacturing Power",
+                  subtitle: "1 GW Annual Production",
+                  description:
+                    "MSC is launching Morocco’s first photovoltaic module factory, starting with 1 GW capacity and scaling to 10 GW to meet global demand.",
+                },
+                {
+                  title: "Full Solar Value Chain",
+                  subtitle: "From Silicon to Module",
+                  description:
+                    "We bring every step of solar manufacturing — crystallization, wafering, cell, and module production — directly to Morocco.",
+                },
+                {
+                  title: "Global Expertise",
+                  subtitle: "International Team, Local Impact",
+                  description:
+                    "Our experienced international network in the PV industry is building Morocco’s place in the global renewable energy market.",
+                },
+                {
+                  title: "Sustainable Growth",
+                  subtitle: "Driving Energy Independence",
+                  description:
+                    "By producing high-efficiency solar technology locally, we reduce imports, strengthen Morocco’s economy, and cut carbon emissions.",
+                },
+              ].map((j, i) => (
+                <div
+                  key={j.title}
+                  className={cn(
+                    "p-6 border-b-2 border-v2-primary bg-[#2b5254] flex flex-col gap-2",
+                    {
+                      "border-b-0": i > 1,
+                      "border-t-2": i > 1,
+                    }
+                  )}
+                >
+                  <div>
+                    <Typography
+                      className="text-v2-primary tracking-tight"
+                      variant="2xl/medium"
+                    >
+                      {j.title}
+                    </Typography>
+                    <Typography
+                      className="text-white tracking-tight"
+                      variant="xl/medium"
+                    >
+                      {j.subtitle}
                     </Typography>
                   </div>
-                ))}
-              </div>
+                  <Typography variant="base/normal" className="text-white">
+                    {j.description}
+                  </Typography>
+                </div>
+              ))}
             </div>
-          </PageContainer>
-        </Section> */}
+          </div>
+        </PageContainer>
+      </Section> */}
         <Section className="relative bg-gray-100/70">
           <PageContainer
             // size="xl"
@@ -734,14 +734,14 @@ function MSC() {
           >
             <div className="flex flex-col gap-16">
               {/* <SectionTag id="what-we-do" className="bg-transparent">
-                What we do
-              </SectionTag> */}
+              What we do
+            </SectionTag> */}
 
               <div className="">
                 {/* <span className="inline-flex items-center gap-2 px-4 py-2 bg-lightgreen/25 text-v1darkgreen rounded-full text-sm font-semibold mb-8 border border-v1darkgreen/20">
-            <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
-            الأسئلة الشائعة
-          </span> */}
+          <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
+          الأسئلة الشائعة
+        </span> */}
                 <SectionTag id="faq" className="">
                   لماذا
                 </SectionTag>
@@ -779,11 +779,11 @@ function MSC() {
                           {i + 1}. {j.title}
                         </Typography>
                         {/* <Typography
-                          className="text-v2-darkgray/70 tracking-tight"
-                          variant="xl/medium"
-                        >
-                          {j.description}
-                        </Typography> */}
+                        className="text-v2-darkgray/70 tracking-tight"
+                        variant="xl/medium"
+                      >
+                        {j.description}
+                      </Typography> */}
                       </div>
                       <Typography
                         variant="lg/normal"
@@ -844,63 +844,63 @@ function MSC() {
         </Section>
 
         {/* <Section className="text-v2-darkgray">
-          <PageContainer
-            size="sm"
-            className="flex flex-col gap-12 items-center"
-          >
-            <div className="text-center flex flex-col gap-20">
-              <SectionTag id="team" className="bg-v2-darkgray">
-                Team
-              </SectionTag>
-              <Typography
-                variant="6xl/medium"
-                className="text-v2-darkgray tracking-tighter"
-              >
-                Our Team - Leadership Driving Morocco’s Solar Future
-              </Typography>
+        <PageContainer
+          size="sm"
+          className="flex flex-col gap-12 items-center"
+        >
+          <div className="text-center flex flex-col gap-20">
+            <SectionTag id="team" className="bg-v2-darkgray">
+              Team
+            </SectionTag>
+            <Typography
+              variant="6xl/medium"
+              className="text-v2-darkgray tracking-tighter"
+            >
+              Our Team - Leadership Driving Morocco’s Solar Future
+            </Typography>
 
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-                {[
-                  {
-                    name: "Ahmed Jaafar",
-                    title: "CEO",
-                    description: "Founder / CEO",
-                    image: "/images/ahmed-jaafar.webp",
-                  },
-                  {
-                    name: "Dr. Dirk Habermann",
-                    title: "CTO",
-                    description: "Founder / CTO",
-                    image: "/images/dr-dirk.webp",
-                  },
-                ].map((team) => (
-                  <div
-                    key={team.name}
-                    className="relative border-2 border-v2-darkgray"
-                  >
-                    <img
-                      src={team.image}
-                      alt=""
-                      className="w-full h-96 object-cover"
-                    />
-                    <div className="px-4 py-3 flex flex-col gap-1 absolute bottom-0 left-0 left-0 bg-v2-darkgray/50 backdrop-blur-xl ">
-                      <Typography
-                        variant="xl/medium"
-                        className="text-white tracking-tight"
-                      >
-                        {team.name}
-                      </Typography>
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+              {[
+                {
+                  name: "Ahmed Jaafar",
+                  title: "CEO",
+                  description: "Founder / CEO",
+                  image: "/images/ahmed-jaafar.webp",
+                },
+                {
+                  name: "Dr. Dirk Habermann",
+                  title: "CTO",
+                  description: "Founder / CTO",
+                  image: "/images/dr-dirk.webp",
+                },
+              ].map((team) => (
+                <div
+                  key={team.name}
+                  className="relative border-2 border-v2-darkgray"
+                >
+                  <img
+                    src={team.image}
+                    alt=""
+                    className="w-full h-96 object-cover"
+                  />
+                  <div className="px-4 py-3 flex flex-col gap-1 absolute bottom-0 left-0 left-0 bg-v2-darkgray/50 backdrop-blur-xl ">
+                    <Typography
+                      variant="xl/medium"
+                      className="text-white tracking-tight"
+                    >
+                      {team.name}
+                    </Typography>
 
-                      <Typography variant="base/normal" className="text-white">
-                        {team.description}
-                      </Typography>
-                    </div>
+                    <Typography variant="base/normal" className="text-white">
+                      {team.description}
+                    </Typography>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
-          </PageContainer>
-        </Section> */}
+          </div>
+        </PageContainer>
+      </Section> */}
         <section
           id="testimonials"
           className="py-32 sm:py-48 bg-muted/5 relative overflow-hidden"
@@ -913,9 +913,9 @@ function MSC() {
             <div className="max-w-3xl mb-24 flex flex-col gap-10">
               <div className="">
                 {/* <span className="inline-flex items-center gap-2 px-4 py-2 bg-lightgreen/25 text-v1darkgreen rounded-full text-sm font-semibold mb-8 border border-v1darkgreen/20">
-            <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
-            الأسئلة الشائعة
-          </span> */}
+          <span className="w-1.5 h-1.5 bg-v1darkgreen rounded-full"></span>
+          الأسئلة الشائعة
+        </span> */}
                 <SectionTag id="faq" className="">
                   قصص النجاح
                 </SectionTag>
@@ -928,20 +928,20 @@ function MSC() {
                 </p>
               </div>
               {/* <div className="flex flex-col gap-6">
-                <SectionTag id="technology" className="">
-                  قصص النجاح
-                </SectionTag>
+              <SectionTag id="technology" className="">
+                قصص النجاح
+              </SectionTag>
 
-                <div className="flex flex-col gap-6">
-                  <Typography variant="6xl/medium" className="text-">
-                    أصوات من النجاح
-                  </Typography>
-                  <Typography variant="lg/normal" className="">
-                    {" "}
-                    استمع من الطلاب الذين حققوا أحلامهم بمساعدة مسار غير.
-                  </Typography>
-                </div>
-              </div> */}
+              <div className="flex flex-col gap-6">
+                <Typography variant="6xl/medium" className="text-">
+                  أصوات من النجاح
+                </Typography>
+                <Typography variant="lg/normal" className="">
+                  {" "}
+                  استمع من الطلاب الذين حققوا أحلامهم بمساعدة مسار غير.
+                </Typography>
+              </div>
+            </div> */}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
