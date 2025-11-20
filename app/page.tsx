@@ -14,12 +14,7 @@ import { ArrowLeft, CheckIcon, Search } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div className="font-ibm-plex-sans-arabic">
-      <Header />
-      <MSC />
-    </div>
-  );
+  return <V2Page />;
 }
 
 import { Menu, X } from "lucide-react";
@@ -994,6 +989,7 @@ function MSC() {
 }
 
 import { Star } from "lucide-react";
+import { V2Page } from "./v2/page";
 
 const testimonials = [
   {

@@ -21,6 +21,10 @@ import {
 import Link from "next/link";
 
 export default function Home() {
+  return <V2Page></V2Page>;
+}
+
+export function V2Page() {
   return (
     <div className="font-ibm-plex-sans-arabic">
       <Header />
