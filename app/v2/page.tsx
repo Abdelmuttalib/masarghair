@@ -1018,7 +1018,7 @@ function MSC() {
                 <h2 className=" text-5xl lg:text-6xl font-semibold text-pretty mb-8">
                   هل أنت مستعد؟
                 </h2>
-                <p className="text-xl text-v1-primary-foreground/85 mb-14 leading-relaxed font-light">
+                <p className="text-xl text-foreground/80 mb-14 leading-relaxed font-light">
                   تواصل مع استشاريينا الخبراء اليوم. احجز استشارتك المجانية
                   واكتشف طريقك إلى أفضل الجامعات الأمريكية.
                 </p>
