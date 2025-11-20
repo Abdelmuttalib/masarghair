@@ -458,9 +458,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <h1 className=" text-2xl font-bold tracking-tight text-v1-primary">
+            {/* <h1 className=" text-2xl font-bold tracking-tight text-v1-primary">
               مسار غير
-            </h1>
+            </h1> */}
+            <img
+              src="/masarghair.webp"
+              alt=""
+              className="w-16 lg:w-20 h-16 lg:h-20"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-10">

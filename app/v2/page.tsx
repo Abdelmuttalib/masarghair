@@ -10,7 +10,14 @@ import { PageContainer } from "@/components/page-container";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
-import { ArrowLeft, CheckIcon, Search } from "lucide-react";
+import {
+  ArrowLeft,
+  CheckIcon,
+  Mail,
+  MapPin,
+  Phone,
+  Search,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -44,13 +51,18 @@ export function Header() {
             {/* <h1 className=" text-2xl font-bold tracking-tight text-v2-primary">
             مسار غير
           </h1> */}
-            <h3 className="text-2xl font-medium uppercase tracking-tight text-v2-darkgray">
+            {/* <h3 className="text-2xl font-medium uppercase tracking-tight text-v2-darkgray">
               مسار
               <span className="mr-1 font-normal text-v2-darkgray/70 text-base sm:text-2xl">
                 غير
-                {/* Securico */}
               </span>
-            </h3>
+            </h3> */}
+
+            <img
+              src="/masarghair.webp"
+              alt=""
+              className="w-16 lg:w-20 h-16 lg:h-20"
+            />
           </div>
 
           <nav className="hidden lg:flex items-center gap-10 rounded-lg">
@@ -987,6 +999,137 @@ function MSC() {
         <FAQ />
 
         <JoinSection />
+        <section
+          id="contact"
+          className="py-32 sm:py-48 text-v2-darkgray relative overflow-hidden"
+        >
+          <div className="absolute inset-0 -z-10">
+            <div className="absolute top-0 left-0 w-96 h-96 bg-white/8 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 right-0 w-96 h-96 bg-v1-accent/5 rounded-full blur-3xl"></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-24 items-center">
+              <div>
+                <h2 className=" text-5xl lg:text-6xl font-semibold text-pretty mb-8">
+                  هل أنت مستعد؟
+                </h2>
+                <p className="text-xl text-v1-primary-foreground/85 mb-14 leading-relaxed font-light">
+                  تواصل مع استشاريينا الخبراء اليوم. احجز استشارتك المجانية
+                  واكتشف طريقك إلى أفضل الجامعات الأمريكية.
+                </p>
+
+                <div className="space-y-10">
+                  <div className="flex gap-6 items-start group">
+                    <div className="w-14 h-14 rounded-lg bg-v2-primary/15 flex items-center justify-center flex-shrink-0 group-hover:bg-v2-primary/25 transition-all duration-300">
+                      <Mail className="w-7 h-7 text-v2-primary" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-2 text-lg">
+                        البريد الإلكتروني
+                      </p>
+                      <a
+                        href="mailto:hello@masarghair.com"
+                        className="text-foreground/75 hover:text-v2-primary transition-colors font-medium text-base"
+                      >
+                        hello@masarghair.com
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-6 items-start group">
+                    <div className="w-14 h-14 rounded-lg bg-v2-primary/15 flex items-center justify-center flex-shrink-0 group-hover:bg-v2-primary/25 transition-all duration-300">
+                      <Phone className="w-7 h-7 text-v2-primary" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-2 text-lg">الهاتف</p>
+                      <a
+                        href="tel:+966123456789"
+                        className="text-foreground/75 hover:text-v2-primary transition-colors font-medium text-base"
+                      >
+                        +966 (12) 345-6789
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-6 items-start group">
+                    <div className="w-14 h-14 rounded-lg bg-v2-primary/15 flex items-center justify-center flex-shrink-0 group-hover:bg-v2-primary/25 transition-all duration-300">
+                      <MapPin className="w-7 h-7 text-v2-primary" />
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-2 text-lg">المقرات</p>
+                      <p className="text-foreground/75 font-medium text-base">
+                        الرياض، المملكة العربية السعودية
+                        <br />
+                        نيويورك، الولايات المتحدة الأمريكية
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-v2-darkgray text-white border border-v1-primary-foreground/20 rounded-2xl p-12 backdrop-blur-md hover:border-v1-primary-foreground/40 transition-all duration-300">
+                <h3 className=" text-3xl font-bold mb-10">
+                  احجز استشارة مجانية
+                </h3>
+                <form className="space-y-6">
+                  <div>
+                    <label className="block text-sm font-semibold mb-3">
+                      الاسم الكامل
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="اسمك"
+                      className="w-full px-5 py-3.5 rounded-lg bg-v1-primary-foreground/10 border border-v1-primary-foreground/30 text-v1-primary-foreground placeholder:text-v1-primary-foreground/50 focus:outline-none focus:border-v2-primary focus:ring-2 focus:ring-v2-primary/30 transition-all duration-300"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold mb-3">
+                      البريد الإلكتروني
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="بريدك@البريد.com"
+                      className="w-full px-5 py-3.5 rounded-lg bg-v1-primary-foreground/10 border border-v1-primary-foreground/30 text-v1-primary-foreground placeholder:text-v1-primary-foreground/50 focus:outline-none focus:border-v2-primary focus:ring-2 focus:ring-v2-primary/30 transition-all duration-300"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold mb-3">
+                      الصف الحالي
+                    </label>
+                    <select className="w-full px-5 py-3.5 rounded-lg bg-v1-primary-foreground/10 border border-v1-primary-foreground/30 text-v1-primary-foreground focus:outline-none focus:border-v2-primary focus:ring-2 focus:ring-v2-primary/30 transition-all duration-300">
+                      <option>الصف 10</option>
+                      <option>الصف 11</option>
+                      <option>الصف 12</option>
+                      <option>تخرج</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold mb-3">
+                      الرسالة
+                    </label>
+                    <textarea
+                      placeholder="أخبرنا عن أحلامك الجامعية..."
+                      rows={4}
+                      className="w-full px-5 py-3.5 rounded-lg bg-v1-primary-foreground/10 border border-v1-primary-foreground/30 text-v1-primary-foreground placeholder:text-v1-primary-foreground/50 focus:outline-none focus:border-v2-primary focus:ring-2 focus:ring-v2-primary/30 transition-all duration-300 resize-none"
+                    />
+                  </div>
+
+                  <Button className="w-full bg-v2-primary hover:bg-v1-accent/90 text-v1-accent-foreground rounded-lg py-6 font-semibold group shadow-premium hover:shadow-premium-lg transition-all duration-300 sm:text-base">
+                    احجز الاستشارة{" "}
+                    <ArrowLeft
+                      className="mr-2 group-hover:-translate-x-1 transition-transform"
+                      size={20}
+                    />
+                  </Button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
         <Footer />
       </div>
     </div>
