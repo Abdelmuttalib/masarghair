@@ -21,8 +21,8 @@ export function LogoText({
 
 export function SectionTag({ id, className, ...props }: SectionProps) {
   return (
-    <div className="flex items-center gap-2">
-      <div className="size-3 bg-v2-primary"></div>
+    <div className="flex items-center gap-2 bg-v2-gray/60 w-fit rounded-full px-3.5 py-0.5">
+      {/* <div className="size-3 bg-v2-primary"></div> */}/
       <Typography
         variant="lg/normal"
         className={cn("uppercase", className)}

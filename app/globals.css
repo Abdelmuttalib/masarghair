@@ -98,6 +98,7 @@
   --color-v2-darkgray: var(--v2-darkgray);
   --color-v2-darkgreen: var(--v2-darkgreen);
   --color-v2-gray: var(--v2-gray);
+  --color-v2-dark: var(--v2-dark);
 }
 
 :root {
@@ -151,6 +152,9 @@
   --v2-darkgray: oklch(0.2821 0.0295 256.85);
   --v2-darkgreen: oklch(0.2922 0.0516 184.62);
   --v2-gray: oklch(0.9122 0.0135 167.15);
+
+  /* oklch(0.1661 0.015 253.28) #0a0f15 */
+  --v2-dark: oklch(0.1661 0.015 253.28);
 
   /* --v1-primary: oklch(0.3361 0.0378 198.16); */
   --v1-primary: oklch(0.3361 0.0378 198.16);
